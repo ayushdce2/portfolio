@@ -4,6 +4,7 @@ const Home  = ()=>{
     return(
         <>
         <div className="table_wrap">
+
         {/* Frontend - (React) - Application */}
             <table border={1}>
                 <thead>
@@ -166,6 +167,10 @@ const Home  = ()=>{
                 </tbody>
                 
             </table>
+
+                    {/* My resume */}
+        <h3><a href="https://ayushdce2.github.io/my_resume/">My Resume</a></h3>
+
             </div>
         </>
     )
