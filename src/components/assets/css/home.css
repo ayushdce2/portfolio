@@ -1,0 +1,35 @@
+.table_wrap{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:0.5rem;
+    padding:0.2rem;
+    width: 50%;
+    margin: auto;
+}
+
+.table_wrap thead {
+    background-color: #ddd;
+}
+.table_wrap table thead tr th:nth-child(1){
+    width: 6%;
+    text-align: center;
+}
+.table_wrap table thead tr th:nth-child(3){
+    width: 15%;
+    text-align: center;
+}
+.table_wrap table tbody tr td:nth-child(1){
+    text-align: center;
+}
+.table_wrap table tbody tr td{
+    font-weight: bold;
+}
+.table_wrap table tbody tr:hover{
+    background-color: #efd6bf;
+}
+
+@media only screen and (max-width:767px){
+    .table_wrap{
+        width:100%;
+    }
+}
