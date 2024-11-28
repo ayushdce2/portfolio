@@ -51,6 +51,61 @@ const Home  = ()=>{
                         <td>Quiz App</td> 
                         <td> <a href="https://ayushdce2.github.io/quiz_react/" target="_blank">Click</a> </td>
                     </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Dice Rolling App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Food App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Currency Converter App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Stopwatch App</td> 
+                        <td> <a href="" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Calendar</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Survey Form App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>E-commerce App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Word Counter App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Blog App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Bill PDF Generator App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Music Player App</td> 
+                        <td> <a href="#" target="_blank">Click</a> </td>
+                    </tr>
                 </tbody>
             </table>
             {/* Frontend - (React) - Websites */}
