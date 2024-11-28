@@ -109,7 +109,7 @@ const Home  = ()=>{
                 </tbody>
             </table>
             {/* Frontend - (React) - Websites */}
-            <table border={1}>
+            {/* <table border={1}>
                 <thead>
                     <tr>
                         <th colSpan={3}>
@@ -162,10 +162,10 @@ const Home  = ()=>{
                     </tr>
                 </tbody>
 
-            </table>
+            </table> */}
 
                         {/* Backend - (MERN) - Small Application */}
-                        <table border={1}>
+                        {/* <table border={1}>
                 <thead>
                     <tr>
                         <th colSpan={3}>
@@ -186,7 +186,7 @@ const Home  = ()=>{
                     </tr>
                 </tbody>
 
-            </table>
+            </table> */}
 
             {/* Backend - (MERN) - Big Application */}
             <table border={1}>
