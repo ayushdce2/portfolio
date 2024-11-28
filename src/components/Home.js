@@ -109,7 +109,7 @@ const Home  = ()=>{
                 </tbody>
             </table>
             {/* Frontend - (React) - Websites */}
-            {/* <table border={1}>
+            <table border={1}>
                 <thead>
                     <tr>
                         <th colSpan={3}>
@@ -162,7 +162,7 @@ const Home  = ()=>{
                     </tr>
                 </tbody>
 
-            </table> */}
+            </table>
 
                         {/* Backend - (MERN) - Small Application */}
                         {/* <table border={1}>
@@ -189,7 +189,7 @@ const Home  = ()=>{
             </table> */}
 
             {/* Backend - (MERN) - Big Application */}
-            <table border={1}>
+            {/* <table border={1}>
             <thead>
                     <tr>
                         <th colSpan={3}>
@@ -221,10 +221,12 @@ const Home  = ()=>{
                     </tr>
                 </tbody>
                 
-            </table>
+            </table> */}
 
                     {/* My resume */}
         <h3><a href="https://ayushdce2.github.io/my_resume/">My Resume</a></h3>
+        {/* DSA Algo Logic */}
+        <h3><a href="https://ayushdce2.github.io/dsa_algo_logic/">DSA - Algo - Logic</a></h3>
 
             </div>
         </>
