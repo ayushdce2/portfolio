@@ -187,9 +187,9 @@ const Home  = ()=>{
                     </thead>
                     <tbody>
                         <tr>
-                            <td> - </td>
-                            <td> - </td>
-                            <td> - </td>
+                            <td>1</td>
+                            <td>Task Management</td>
+                            <td><a href="https://todo-mern-front-8c90.onrender.com/" target="_blank">Click</a></td>
                         </tr>
                     </tbody>
 
@@ -210,26 +210,27 @@ const Home  = ()=>{
                         </tr>
                     </thead>
                     <tbody>
+                        
                         <tr>
-                            <td>
-                                1
-                            </td>
-                            <td>
-                                Hospital Management
-                            </td>
-                            <td>
-                                <a href="https://ayushdce2.github.io/hospital_mgmt/" target="_blank">Click</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
+                            <td>1</td>
                             <td>Employee Management</td>
                             <td><a href="https://emp-mgmt-node-6.onrender.com/" target="_blank">Click</a></td>
                         </tr>
+                        
+                        <tr>
+                            <td>2</td>
+                            <td>Project Management</td>
+                            <td><a href="#" target="_blank">Click</a></td>
+                        </tr>
                         <tr>
                             <td>3</td>
-                            <td>Task Management</td>
-                            <td><a href="https://todo-mern-front-8c90.onrender.com/" target="_blank">Click</a></td>
+                            <td>E-Commerce</td>
+                            <td><a href="#" target="_blank">Click</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Hospital Management</td>
+                            <td><a href="#" target="_blank">Click</a></td>
                         </tr>
                     </tbody>
                     
