@@ -5,7 +5,7 @@ const Home  = ()=>{
         <>
 <div>
     <div style={{"display":"flex","justifyContent":"center","gap":"20px"}}>
-        <h3><a href="https://drive.google.com/drive/folders/1A0vxuHDJvb5nEHLSYcHtUHLdZWMCGL1j?usp=sharing"> {">"} My Resume {"<"}</a></h3>
+        <h3><a href="https://drive.google.com/file/d/1Az7fVqf4zjsAoIRQQwhS8ivDR3goeMt-/view?usp=sharing"> {">"} My Resume {"<"}</a></h3>
         <h3><a href="https://ayushdce2.github.io/ayush/"> {">"} My Portfolio {"<"}</a></h3>
     </div>
 </div>
