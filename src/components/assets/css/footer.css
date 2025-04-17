@@ -1,0 +1,102 @@
+.ayushFooter{
+    font-weight: bold;
+}
+.footerbottominside{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    letter-spacing: 0.5px;
+    background-color: #ddd;
+}
+
+.footertopWrap{
+    background-color: rgb(129, 107, 107);
+}
+.footerIntroRow1{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom:1.5rem ;
+    /* justify-content: center; */
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+.footertopinside{
+    padding: 2rem 1rem ;
+    display: flex;
+    gap: 1rem;
+}
+.footerIntroRow1symbol{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    padding: 0.2rem;
+    font-size: 2.2rem;
+    border:1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerIntroRow3{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0px ;
+}
+.footerIntroRow3 a img{
+    width: 1.5rem;
+    display: block;
+}
+.footerIntroRow1text{
+    font-size: 1.8rem;
+    color: red;
+}
+.footerIntroRow2{
+    font-size: 1.2rem;
+}
+.footerNavWrap{
+    width: 15%;
+}
+.footerNavinside p{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: red;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.7rem;
+}
+.footerNavinside{
+    /* border: 1px solid #000; */
+    /* width: 30%; */
+    padding: 1rem;
+}
+.footerNavinside ul{
+    list-style-type: none;
+}
+.footerNavinside ul li{
+    margin: 0.5rem;
+}
+.footerIntroWrap{
+    width: 30%;
+}
+
+/*  */
+.footerContactWrap{
+    width: 15%;
+}
+.footerContactinside p{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: red;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.7rem;
+}
+.footerContactinside{
+    /* border: 1px solid #000; */
+    /* width: 30%; */
+    padding: 1rem;
+}
+.footerContactinside ul{
+    list-style-type: none;
+}
+.footerContactinside ul li{
+    margin: 0.5rem;
+}
