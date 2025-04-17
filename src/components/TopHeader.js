@@ -121,6 +121,18 @@ const TopHeader = ()=>{
                                 <p>Website Development</p>
                             </div>
                         </div>
+                        <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
                         
 
                     </div>
@@ -146,18 +158,7 @@ const TopHeader = ()=>{
                             </div>
 
                         </div>
-                        <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
+                        
 
             </div>
             </div>
