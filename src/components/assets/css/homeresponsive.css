@@ -17,7 +17,7 @@
         display: none;
     }
     .services_list_inside {
-        width: 400vw;
+        width: 470vw;
     }
     .subheading{
         flex-wrap: wrap;
@@ -77,16 +77,22 @@
         flex-basis: 100%;
     }
     .footerNavWrap{
-        width: 45%;
+        width: 100%;
     }
     .footerContactWrap {
-        width: 45%;
+        width: 100%;
     }
     .footerNavinside ul{
-        text-align: center;
+        /* text-align: center; */
+    }
+    .footerNavinside{
+        padding: 0px;
     }
     .footerContactinside ul{
         text-align: center;
+    }
+    .footerContactinside{
+        padding: 0px;
     }
     .footerbottominside{
         flex-wrap: wrap;
