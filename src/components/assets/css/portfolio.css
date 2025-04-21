@@ -1,5 +1,5 @@
 .portfolioWrap .portfolioimage{
-    border: 1px solid #c7c7c7;
+    border: 1px solid #E78B48;
     width: 100%;
     height: 25rem;
     border-radius: 0.51rem;
@@ -28,6 +28,9 @@
     border-top-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     padding: 0.2rem 0.5rem;
+    background-color: #102E50;
+    color: #F5C45E;
+    text-shadow: 1px 1px #000;
 }
 .portfolioWrap .servicesMainUnitName{
     margin-top: 2rem;

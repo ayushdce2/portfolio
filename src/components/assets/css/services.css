@@ -1,5 +1,5 @@
 .servicesInside{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 5rem 1rem;
 }
 .servicesRow1{
@@ -28,7 +28,7 @@
  .servicesRow1 p:after{
     position: absolute;
     content: "";
-    border: 2px solid rgb(214 103 33);
+    border: 2px solid #E78B48;
     width: 11%;
     top: 92%;
     left: 0;
@@ -106,21 +106,21 @@
     /* border: 1px solid red; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     flex-basis: 24%;
-    padding: 1.2rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
     border-radius: 0.3rem;
     position: relative;
-    background-color: #f3f3f3;
+    background-color: #F5C45E;
 }
 .servicesMainUnitInside .servicesMainUnitIcon{
     width: 5rem;
     height: 5rem;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     padding: 0.5rem;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .servicesMainUnitInside .servicesMainUnitIcon img{
     width: 80%;
@@ -135,13 +135,18 @@
 }
 .servicesMainUnitName{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 0.9rem 0px 0.5rem 0px;
     letter-spacing: 1px;
+}
+.servicesMainUnitName p{
+    color: #BE3D2A;
 }
 .servicesMainUnitDesc{
     margin: 0.7rem 0px;
     letter-spacing: 0.4px;
+    text-align: justify;
+    text-shadow: 0 0 #000;
 }
 .servicesMainUnitDesc p:nth-child(2){
     white-space: nowrap;

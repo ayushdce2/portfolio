@@ -2,7 +2,7 @@ import "./assets/css/services.css";
 import ayushlogo from "./assets/icons/ayushlogo.png";
 import lineseparator from "./assets/icons/lineseparator.png";
 import playSVG from "./assets/icons/play.svg";
-import service from "./assets/icons/service.png";
+import service from "./assets/icons/service.svg";
 import arrowdouble from "./assets/icons/arrowdouble.png";
 import pin from "./assets/icons/pin.png";
 import "./assets/css/portfolio.css";
@@ -10,7 +10,7 @@ import "./assets/css/portfolio.css";
 const Portfolio = ()=>{
     return (
         <>
-            <div className="servicesWrap portfolioWrap">
+            <div className="servicesWrap portfolioWrap" id="myProject">
                 <div className="servicesInside">
                     <div className="servicesRow1">
                         <div>
@@ -24,7 +24,7 @@ const Portfolio = ()=>{
                     
                     <div className="subheading">
                         <p><span className="servicessubtext">Latest</span> Projects built be me . . .</p>
-                        <div className="viewAllButton">
+                        {/* <div className="viewAllButton">
                             <div className="viewMe">
                                 <a href="#">View All Projects</a>
                             </div>
@@ -34,7 +34,7 @@ const Portfolio = ()=>{
                                 </a>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                     <div>
                         <div className="servicesMainUnit">
@@ -65,10 +65,14 @@ const Portfolio = ()=>{
                                     </div>
 
                                 </div>
-                                <div className="servicesMainUnitFooter">
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
                                     <p>View More</p>
                                     <img src={arrowdouble}/>
-                                </div>
+                                </div> */}
                                 {/* <img src={pin} className="pinRight"/> */}
 
                             </div>
@@ -99,10 +103,14 @@ const Portfolio = ()=>{
                                     </div>
 
                                 </div>
-                                <div className="servicesMainUnitFooter">
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
                                     <p>View More</p>
                                     <img src={arrowdouble}/>
-                                </div>
+                                </div> */}
                                 {/* <img src={pin} className="pinRight"/> */}
 
                             </div>
@@ -133,10 +141,14 @@ const Portfolio = ()=>{
                                     </div>
 
                                 </div>
-                                <div className="servicesMainUnitFooter">
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
                                     <p>View More</p>
                                     <img src={arrowdouble}/>
-                                </div>
+                                </div> */}
                                 {/* <img src={pin} className="pinRight"/> */}
 
                             </div>
@@ -167,10 +179,14 @@ const Portfolio = ()=>{
                                     </div>
 
                                 </div>
-                                <div className="servicesMainUnitFooter">
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
                                     <p>View More</p>
                                     <img src={arrowdouble}/>
-                                </div>
+                                </div> */}
                                 {/* <img src={pin} className="pinRight"/> */}
 
                             </div>

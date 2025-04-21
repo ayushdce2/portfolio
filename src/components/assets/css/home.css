@@ -30,12 +30,13 @@
     font-size: 1.9rem;
     text-decoration: none;
     color: #BE3D2A;
+    font-weight: bold;
 }
 .brnadLogoIcon{
     width: 3rem;
     height: 3rem;
     border-radius: 2rem;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +44,11 @@
     background-color: #BE3D2A;
     color: #ddd;
     font-weight: bold;
+}
+.brnadLogoIcon img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
 }
 .topMenu{
     display: flex;
@@ -65,8 +71,34 @@
     align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
-    color: #E78B48;
+    
     font-weight: bold;
+}
+.topMenuList ul li a{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    /* border: 1px solid #000; */
+    /* border-radius: 1rem; */
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #BE3D2A;
+}
+.topMenuList ul li a:hover{
+    background-color: #be3d2ab8;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.topMenuList ul li .topMenuIconItem{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.topMenuList ul li .topMenuIconItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .topMenuContact{
     display: flex;
@@ -77,6 +109,10 @@
     border-radius: 2rem;
     
 }
+.topMenuContact div{
+    width: 1.5rem;
+    height: 1.5rem;
+}
 .topMenuContact a{
     background-color: #F5C45E;
     padding: 0.8rem 1rem;
@@ -85,8 +121,16 @@
     text-decoration: none;
     color: #BE3D2A;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    outline: 1px solid #BE3D2A;
 }
-
+.topMenuContact a:hover{
+    background-color: #BE3D2A;
+    color: #F5C45E;
+}
 .topheaderbanner{
     display: flex;
     flex-wrap: wrap;
@@ -234,8 +278,8 @@
 
 }
 .thbl_row4_button_wrap .playButton a img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 75%;
+    height: 75%;
     object-fit: contain;
     display: block;
 }
@@ -249,6 +293,7 @@
     border-radius: 2rem;
     font-size: 1.3rem;
     color: #F5C45E;
+    cursor: pointer;
 }
 .thbl_row4_inside{
     display: flex;
@@ -270,10 +315,7 @@
     display: flex;
     justify-content: center;
 }
-.topheaderbannerright_inside img{
-    /* width: 100%; */
-    height:100%
-}
+
 .topheaderbannerright{
     background-image: url("../icons/blob.svg");
     background-repeat: no-repeat;
@@ -292,20 +334,35 @@
     /* color: #fff; */
     font-weight: bold;
     /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .thbr_website_text{
      
     bottom: 10%;
     left: 10%;
-     
+    animation:toprightanimation 3s alternate-reverse infinite;
 }
 .thbr_marketing_text{
     
     top: 50%;
     right: 10%;
+    animation: toprightanimation 3s alternate infinite;
      
 
+}
+@keyframes toprightanimation {
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateZ(30px);
+    }
 }
 .services_list{
     overflow: hidden;
@@ -361,4 +418,31 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.thbr_website_text .thbr_web_text_img1,
+.thbr_marketing_text .thbr_web_text_img2{
+    width: 2rem;
+    height: 2rem;
+}
+.thbr_website_text .thbr_web_text_img1 img{
+    width: 100%;
+    height: 100%;
+}
+.thbr_marketing_text .thbr_web_text_img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.topheaderbannerright_inside img{
+    /* width: 100%; */
+    /* height:100% */
+}
+.hireMeMail{
+    color: #fff;
+    animation: hireMeMail 0.5s alternate infinite;
+}
+@keyframes hireMeMail {
+    0%{ color: #BE3D2A; letter-spacing: 1px;}
+    50%{ color: #fff;}
+    100%{color: #F5C45E;}
 }
