@@ -14,7 +14,7 @@ const ContactForm =()=>{
 
 
     try{
-                await axios.post('http://localhost:3001/contact',formData)
+                await axios.post('https://portfolio-bil8.onrender.com/contact',formData)
                         .then((response)=>{console.log(response,"<---response")})
                         .catch((error)=>{console.log(error,"<---error")});
                 
