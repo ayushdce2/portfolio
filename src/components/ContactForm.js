@@ -12,7 +12,7 @@ const ContactForm =()=>{
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    console.log(formData,"<=========formData");
+    console.log(formData,"<=========formData Client");
 
     
 
@@ -31,7 +31,7 @@ const ContactForm =()=>{
     // const result = await res.json();
     
   }
-  console.log(finalOutput,"hahahahaha");
+  console.log(finalOutput,"formData Server");
   return(
     <div className="contact-form" id='contactMe'>
     {/* <h2>Contact Me</h2> */}
