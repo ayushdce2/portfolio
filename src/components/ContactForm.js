@@ -18,7 +18,7 @@ const ContactForm =()=>{
 
     try{
                 await axios.post('https://portfolio-bil8.onrender.com/contact',formData)
-                        .then((response)=>{console.log(response.data,"<---response");  setFinalOutput( response.data);})
+                        .then((response)=>{console.log(response.data,"<---response client ");  setFinalOutput( response.data);})
                         .catch((error)=>{console.log(error,"<---error"); setFinalOutput(error.data);});
                 
                 

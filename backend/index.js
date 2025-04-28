@@ -28,7 +28,7 @@ app.get('/',(req,res)=>{
 
 // POST endpoint for form submission
 app.post('/contact', async (req, res) => {
-    console.log("<---responsoe--->",req.body);
+    console.log("<---response at end point--->",req.body);
     
   const { name, email, message } = req.body;
 
