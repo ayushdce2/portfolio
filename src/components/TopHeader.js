@@ -101,8 +101,8 @@ const TopHeader = ()=>{
                             <div className="thbl_row5_inside">
                                 <a href="https://www.linkedin.com/in/ayushdce2/" target="_blank"><img src={linkedin}/></a>
                                 <a href="https://www.instagram.com/ayushdce2/" target="_blank"><img src={instagram}/></a>
-                                {/* <a href="https://techtapasvi.com/" target="_blank"><img src={wordpress}/></a> */}
-                                <a href="https://www.youtube.com/@ayushdce2" target="_blank"><img src={youtube}/></a>
+                                <a href="https://techtapasvi.com/" target="_blank"><img src={wordpress}/></a>
+                                <a href="https://www.youtube.com/@TechTapasvi" target="_blank"><img src={youtube}/></a>
 
                             </div>
 
