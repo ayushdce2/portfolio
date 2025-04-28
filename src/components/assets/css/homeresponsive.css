@@ -107,5 +107,18 @@
     .topMenu{
         margin-top: unset;
     }
+    .formInside{
+        flex-wrap: wrap;
+    }
+    .formInside .leftForm{
+        width: 100%;
+    }
+    .formInside .rightForm{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .contact-form{
+        padding: 5rem 0px;
+    }
 
   } 
