@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import "./assets/css/contactform.css";
+import ayushlogo from "./assets/icons/ayushlogo.png";
 
 const ContactForm =()=>{
 
     
   const [formData, setFormData] = useState('');
-
+  const [finalOutput, setFinalOutput] = useState('');
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     
     console.log(formData,"<=========formData");
 
-
+    
 
     try{
                 await axios.post('https://portfolio-bil8.onrender.com/contact',formData)
-                        .then((response)=>{console.log(response,"<---response")})
-                        .catch((error)=>{console.log(error,"<---error")});
+                        .then((response)=>{console.log(response.data,"<---response");  setFinalOutput( response.data);})
+                        .catch((error)=>{console.log(error,"<---error"); setFinalOutput(error.data);});
                 
                 
                 // console.log(result,"result");
@@ -28,22 +31,61 @@ const ContactForm =()=>{
     // const result = await res.json();
     
   }
-  
+  console.log(finalOutput,"hahahahaha");
   return(
     <div className="contact-form">
-    <h1>Contact Us</h1>
-  <form action="/" method="POST" onSubmit={handleSubmit}>
-    <label for="name">Name:</label><br/>
-    <input type="text" id="name" name="name" required onChange={(e)=>{setFormData({...formData,name:e.target.value})}}/><br/><br/>
+    {/* <h2>Contact Me</h2> */}
+    <div className="servicesRow1">
+                        <div>
+                            <img src={ayushlogo} />
+                            {/* <div className="headingUnderline">
+                                <img src={lineseparator}/>
+                            </div> */}
+                        </div>
+                        <p> Contact Me</p>
+                    </div>
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+    {!finalOutput? (
+        
+        <div className="formWrap">
+          <div className="formInside">
+            <div className='leftForm'>
+              
+              <p>Want to get in touch ? </p><p>I'd love to hear from you.</p>
+              <p> Fill up the form with required details and soon I will contact you </p>
 
-    <label for="email">Email:</label><br/>
-    <input type="email" id="email" name="email" required onChange={(e)=>{setFormData({...formData,email:e.target.value})}}/><br/><br/>
+            </div>
+            <div className='rightForm'>
+            <form action="/" method="POST" onSubmit={handleSubmit}>
 
-    <label for="message">Message:</label><br/>
-    <textarea id="message" name="message" required onChange={(e)=>{setFormData({...formData,message:e.target.value})}}></textarea><br/><br/>
+              <label for="name">Name:</label><br/>
+              <input type="text" id="name" name="name" required onChange={(e)=>{setFormData({...formData,name:e.target.value})}}/><br/><br/>
 
-    <button type="submit">Submit</button>
-  </form>
+              <label for="email">Email:</label><br/>
+              <input type="email" id="email" name="email" required onChange={(e)=>{setFormData({...formData,email:e.target.value})}}/><br/><br/>
+
+              <label for="message">Message:</label><br/>
+              <textarea id="message" name="message" required onChange={(e)=>{setFormData({...formData,message:e.target.value})}}></textarea><br/><br/>
+
+              <button type="submit">Submit</button>
+
+              </form>
+              </div>            
+          
+          
+
+        </div>
+        </div>
+
+  
+    ): 
+    (
+      <div className='finalMessage'>
+        {finalOutput}
+        </div>)}
+  {/* <p>finally - {">"+finalOutput}</p> */}
   </div>
     )
 }

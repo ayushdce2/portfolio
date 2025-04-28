@@ -48,7 +48,7 @@ app.post('/contact', async (req, res) => {
       res.status(500).send('Something went wrong.');
     } else {
       console.log('Email sent:', info.response);
-      res.send('Thank you for contacting us! We will get back to you shortly.');
+      res.send('Thank you for contacting me! I will get back to you shortly.');
     }
   });
 });
