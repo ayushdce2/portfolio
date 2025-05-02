@@ -23,7 +23,7 @@ const Portfolio = ()=>{
                     </div>
                     
                     <div className="subheading">
-                        <p><span className="servicessubtext">Latest</span> Projects built be me . . .</p>
+                        <p><span className="servicessubtext">Latest</span> Projects built by me . . .</p>
                         {/* <div className="viewAllButton">
                             <div className="viewMe">
                                 <a href="#">View All Projects</a>
