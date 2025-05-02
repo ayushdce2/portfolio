@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "./assets/css/contactform.css";
 import ayushlogo from "./assets/icons/ayushlogo.png";
+import arrowsRotate from "./assets/icons/arrows-rotate.svg";
 
 const ContactForm =()=>{
 
@@ -13,7 +14,15 @@ const ContactForm =()=>{
     e.preventDefault();
     
     console.log(formData,"<=========formData Client");
-
+    const loader = ()=>{
+      return(
+        <>
+          <img src={arrowsRotate} className='arrowsRotate'/>
+        </>
+      )
+      
+    }
+    setFinalOutput(loader);
     
 
     try{
@@ -27,7 +36,7 @@ const ContactForm =()=>{
                 // handleError(error);
                 console.error(error);
             }
-
+            
     // const result = await res.json();
     
   }
