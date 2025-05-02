@@ -44,7 +44,7 @@ const Portfolio = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Dashboard</p>
+                                    <p>Admin Dashboard</p>
                                 </div>
                                 {/* <div className="servicesMainUnitDesc">
                                     <p>Service Description Service Description Service Description Service Description Service Description </p>
@@ -82,7 +82,7 @@ const Portfolio = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Dashboard</p>
+                                    <p>E-commerce</p>
                                 </div>
                                 {/* <div className="servicesMainUnitDesc">
                                     <p>Service Description Service Description Service Description Service Description Service Description </p>
@@ -120,7 +120,7 @@ const Portfolio = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Dashboard</p>
+                                    <p>Food App</p>
                                 </div>
                                 {/* <div className="servicesMainUnitDesc">
                                     <p>Service Description Service Description Service Description Service Description Service Description </p>
@@ -158,7 +158,83 @@ const Portfolio = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Dashboard</p>
+                                    <p>Booking / Appointment App</p>
+                                </div>
+                                {/* <div className="servicesMainUnitDesc">
+                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                </div> */}
+                                <div className="portfolioTags">
+                                    <div className="portfolioTagUnit">
+                                        <p>React.js</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>Tailwind</p>
+                                    </div>
+
+                                </div>
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
+                                    <p>View More</p>
+                                    <img src={arrowdouble}/>
+                                </div> */}
+                                {/* <img src={pin} className="pinRight"/> */}
+
+                            </div>
+                            <div className="servicesMainUnitInside">
+                                <div className="portfolioimage">
+                                    <img src={service} />
+
+                                </div>
+                                <div className="servicesMainUnitName">
+                                    <p>Digital Marketing Agency Template</p>
+                                </div>
+                                {/* <div className="servicesMainUnitDesc">
+                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                </div> */}
+                                <div className="portfolioTags">
+                                    <div className="portfolioTagUnit">
+                                        <p>React.js</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div className="portfolioTagUnit">
+                                        <p>Tailwind</p>
+                                    </div>
+
+                                </div>
+                                <div className="servicesMainUnitDesc">
+                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
+
+                                </div>
+                                {/* <div className="servicesMainUnitFooter">
+                                    <p>View More</p>
+                                    <img src={arrowdouble}/>
+                                </div> */}
+                                {/* <img src={pin} className="pinRight"/> */}
+
+                            </div>
+                            <div className="servicesMainUnitInside">
+                                <div className="portfolioimage">
+                                    <img src={service} />
+
+                                </div>
+                                <div className="servicesMainUnitName">
+                                    <p>NGO Template</p>
                                 </div>
                                 {/* <div className="servicesMainUnitDesc">
                                     <p>Service Description Service Description Service Description Service Description Service Description </p>
