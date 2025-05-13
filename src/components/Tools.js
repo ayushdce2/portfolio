@@ -6,7 +6,8 @@ import github from "./assets/icons/github.svg";
 import lighthouse from "./assets/icons/lighthouse.svg";
 import postman from "./assets/icons/postman.svg";
 import node from "./assets/icons/node.svg";
-
+import wordpress from "./assets/icons/wordpress.svg";
+import firebase from "./assets/icons/firebase.svg";
 const Tools = ()=>{
     return (
         <>
@@ -153,6 +154,54 @@ const Tools = ()=>{
                                     </div>
                                     <div className="toolsitemtitle">
                                         <p>MERN Stack</p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>90%</p>
+
+                                    </div>
+                                    {/* <div className="toolsitembasement">
+                                        
+
+                                        </div> */}
+                                    
+
+                                </div>
+
+
+                            </div>
+
+                            <div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={wordpress}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>Wordpress</p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>90%</p>
+
+                                    </div>
+                                    {/* <div className="toolsitembasement">
+                                        
+
+                                        </div> */}
+                                    
+
+                                </div>
+
+
+                            </div><div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={firebase}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>Firebase</p>
 
                                     </div>
                                     <div className="toolsitemtext">

@@ -1,17 +1,19 @@
 .portfolioWrap .portfolioimage{
-    border: 1px solid #E78B48;
-    width: 100%;
-    height: 25rem;
+    /* border: 1px solid #E78B48; */
+    /* width: calc(100vw - 60vw); */
+    /* max-height: 16rem; */
     border-radius: 0.51rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 .portfolioWrap .portfolioimage img{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
+    border-radius: 0.5rem;
 }
 /* .portfolioWrap .pinRight{
     top: -0.5rem;
@@ -22,6 +24,7 @@
     display: flex;
     gap: 0.5rem;
     margin: 1rem 0rem;
+    flex-wrap: wrap;
 }
 .portfolioWrap .portfolioTagUnit{
     border: 1px solid #000;
@@ -38,7 +41,8 @@
 
 }
 .portfolioWrap .servicesMainUnitInside{
-    flex-basis: 45%;
+    flex-basis: 31%;
+    padding: 1rem;
 }
 .portfolioWrap .servicesMainUnit{
     justify-content: space-around;
@@ -53,3 +57,28 @@
           linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
           var(--dot-color);
   }
+
+.servicesMainUnitFooter a{
+    text-decoration: none;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: #102E50;
+    color: #fff;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+.servicesMainUnitFooter img{
+    width: 1.2rem;
+}
+
+.servicesMainUnitFooter a:hover{
+    
+    
+    
+   
+    background-color: #102E50;
+    color: #fff;
+    
+}

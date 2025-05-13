@@ -3,9 +3,10 @@ import ayushlogo from "./assets/icons/ayushlogo.png";
 import lineseparator from "./assets/icons/lineseparator.png";
 import playSVG from "./assets/icons/play.svg";
 import service from "./assets/icons/service.svg";
-import arrowdouble from "./assets/icons/arrowdouble.png";
+import right from "./assets/icons/right.svg";
 import pin from "./assets/icons/pin.png";
 import "./assets/css/portfolio.css";
+import {PortfolioUtility} from "./PortfolioUtility";
 
 const Portfolio = ()=>{
     return (
@@ -36,237 +37,60 @@ const Portfolio = ()=>{
 
                         </div> */}
                     </div>
+                    
                     <div>
                         <div className="servicesMainUnit">
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
+                            {PortfolioUtility.map((data)=>{
+                                return (
+                                    <>
+                                        <div className="servicesMainUnitInside">
+                                        <div className="portfolioimage">
+                                            <img src={data.image} />
 
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Admin Dashboard</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
+                                        </div>
+                                        <div className="servicesMainUnitName">
+                                            <p>{data.title}</p>
+                                        </div>
+                                        {/* <div className="servicesMainUnitDesc">
+                                            <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                            <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                        </div> */}
+                                        <div className="portfolioTags">
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[0]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[1]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[2]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[3]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[4]}</p>
+                                            </div>
+
+                                        </div>
+                                        <div className="servicesMainUnitDesc">
+                                            <p>{data.description}</p>
+
+                                        </div>
+                                        <div className="servicesMainUnitFooter">
+                                            <a href={data.viewMore} target="_blank">View More <img src={right}/> </a>
+                                            
+                                        </div>
+                                        {/* <img src={pin} className="pinRight"/> */}
+
                                     </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
+                                    </>
+                                )
 
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>E-commerce</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
-
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Food App</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
-
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Booking / Appointment App</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
-
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Digital Marketing Agency Template</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
-
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="portfolioimage">
-                                    <img src={service} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>NGO Template</p>
-                                </div>
-                                {/* <div className="servicesMainUnitDesc">
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                    <p>Service Description Service Description Service Description Service Description Service Description </p>
-                                </div> */}
-                                <div className="portfolioTags">
-                                    <div className="portfolioTagUnit">
-                                        <p>React.js</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>HTML</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>CSS</p>
-                                    </div>
-                                    <div className="portfolioTagUnit">
-                                        <p>Tailwind</p>
-                                    </div>
-
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" this is sample paragraph about title "asdfghjkl" </p>
-
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>View More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-                                {/* <img src={pin} className="pinRight"/> */}
-
-                            </div>
-
+                            })}
+                            
+                            
+                            
                         </div>
                     </div>
 
