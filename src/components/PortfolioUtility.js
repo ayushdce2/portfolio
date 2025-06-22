@@ -5,6 +5,7 @@ import dashboard1 from "./assets/images/dashboard1.png";
 import LoginDesign from "./assets/images/LoginDesign.png";
 import LoginDesign1 from "./assets/images/LoginDesign1.png";
 import LoginDesign2 from "./assets/images/LoginDesign2.png";
+import LoginDesign3 from "./assets/images/LoginDesign3.png";
 import calculator from "./assets/images/calculator.png";
 import todo from "./assets/images/todo.png";
 import digitalMarketing from "./assets/images/digitalMarketing.png";
@@ -54,28 +55,6 @@ export const PortfolioUtility=[
         viewMore: "https://ayushdce2.github.io/todo_react/"
     },
     {
-        image: underProcess,
-        indicator:"React Design",
-        title:"E-commerce",
-        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
-    },
-    
-    {
-        image: underProcess,
-        indicator:"React Design",
-        title:"Booking / Appointment App",
-        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
-    },
-    {
-        image: underProcess,
-        indicator:"React Design",
-        title:"NGO Template",
-        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
-    },
-    {
         image: digitalMarketing,
         indicator:"React Design",
         title:"Digital Marketing Agency",
@@ -116,28 +95,12 @@ export const PortfolioUtility=[
         viewMore: "https://todo-mern-front-8c90.onrender.com/"
     },
     {
-        image: underProcess,
+        image: LoginDesign3,
         indicator:"React Design",
-        title:"Landing Page",
+        title:"Login Page 3",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://todo-mern-front-8c90.onrender.com/"
-    },
-    {
-        image: underProcess,
-        indicator:"React Design",
-        title:"Learning Mgmt System (LMS)",
-        tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://todo-mern-front-8c90.onrender.com/"
-    },
-    {
-        image: underProcess,
-        indicator:"React Design",
-        title:"Job Portal",
-        tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://todo-mern-front-8c90.onrender.com/"
+        viewMore: "https://ayushdce2.github.io/ecommerce_mern/"
     },
     {
         image: digitalClock,
@@ -189,5 +152,51 @@ export const PortfolioUtility=[
         description: "Developed a responsive WordPress website using Elementor with custom-designed pages tailored for user engagement. Integrated dynamic content and optimized performance for seamless user experience.",
         viewMore: "https://drive.google.com/file/d/131J9NJ3SZiv6kkymRAV4HLfTR0XgOmPQ/view?usp=sharing"
 
+    },
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"E-commerce",
+        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
+    },
+    
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"Booking / Appointment App",
+        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
+    },
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"NGO Template",
+        tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
+    },
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"Landing Page",
+        tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
+        viewMore: "https://todo-mern-front-8c90.onrender.com/"
+    },
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"Learning Mgmt System (LMS)",
+        tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
+        viewMore: "https://todo-mern-front-8c90.onrender.com/"
+    },
+    {
+        image: underProcess,
+        indicator:"React Design",
+        title:"Job Portal",
+        tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
+        viewMore: "https://todo-mern-front-8c90.onrender.com/"
     }
 ]
