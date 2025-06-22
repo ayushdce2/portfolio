@@ -45,10 +45,10 @@ app.post('/contact', async (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.error('Error sending email:', error);
-      res.status(500).send('Something went wrong.');
+      res.status(500).send('Something went wrong.',error);
     } else {
       console.log('Email sent:', info.response);
-      res.send('Thank you for contacting me! I will get back to you shortly.');
+      res.send('Thank you for contacting me! I will get back to you shortly.',info.response);
     }
   });
 });

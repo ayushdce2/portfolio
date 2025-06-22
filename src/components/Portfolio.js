@@ -7,6 +7,7 @@ import right from "./assets/icons/right.svg";
 import pin from "./assets/icons/pin.png";
 import "./assets/css/portfolio.css";
 import {PortfolioUtility} from "./PortfolioUtility";
+import pointerBackground from "./assets/icons/pointerBackground.svg";
 
 const Portfolio = ()=>{
     return (
@@ -82,6 +83,13 @@ const Portfolio = ()=>{
                                             
                                         </div>
                                         {/* <img src={pin} className="pinRight"/> */}
+                                        <div className="porfolioIndicatorWrap">
+                                            <div className="porfolioIndicator">
+                                                {/* <img src={pointerBackground} /> */}
+                                                <p>{data?.indicator}</p>
+                                            </div>
+
+                                        </div>
 
                                     </div>
                                     </>

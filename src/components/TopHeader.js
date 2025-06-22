@@ -15,11 +15,16 @@ import tool from "./assets/icons/menu/tool.svg";
 import projects from "./assets/icons/menu/projects.svg";
 import email from "./assets/icons/menu/email.svg";
 import ayushlogo from "./assets/icons/ayushlogo.png";
+import { useState } from "react";
 
 
 
 
 const TopHeader = ()=>{
+    const[activeMenu,setActiveMenu]=useState("home");
+    const selectedMenu=(item)=>{
+        setActiveMenu(item);
+    }
     return (
         <>
         
@@ -37,11 +42,11 @@ const TopHeader = ()=>{
                     </div>
                     <div className="topMenuList">
                         <ul>
-                            <li><a href="#home"><div className="topMenuIconItem"><img src={homeicon}/></div><p>Home</p></a></li>
-                            <li><a href="#services"><div className="topMenuIconItem"><img src={skill}/></div><p>Services</p></a></li>
-                            <li><a href="#about"><div className="topMenuIconItem"><img src={user} /></div><p>About</p></a></li>
-                            <li><a href="#favouriteTool"><div className="topMenuIconItem"><img src={tool}/></div><p>Favourite Tools</p></a></li>
-                            <li><a href="#myProject"><div className="topMenuIconItem"><img src={projects}/></div><p>My Projects</p></a></li>
+                            <li><a href="#home" className={activeMenu==="home" ? "activeMenu" : ""} onClick={()=>{selectedMenu("home")}}><div className="topMenuIconItem"><img src={homeicon}/></div><p>Home</p></a></li>
+                            <li><a href="#services" className={activeMenu==="services" ? "activeMenu" : ""} onClick={()=>{selectedMenu("services")}}><div className="topMenuIconItem"><img src={skill}/></div><p>Services</p></a></li>
+                            <li><a href="#about" className={activeMenu==="about" ? "activeMenu" : ""} onClick={()=>{selectedMenu("about")}}><div className="topMenuIconItem"><img src={user} /></div><p>About</p></a></li>
+                            <li><a href="#favouriteTool" className={activeMenu==="favouriteTool" ? "activeMenu" : ""} onClick={()=>{selectedMenu("favouriteTool")}}><div className="topMenuIconItem"><img src={tool}/></div><p>Favourite Tools</p></a></li>
+                            <li><a href="#myProject" className={activeMenu==="myProject" ? "activeMenu" : ""} onClick={()=>{selectedMenu("myProject")}}><div className="topMenuIconItem"><img src={projects}/></div><p>My Projects</p></a></li>
                             
                             {/* <li>HOME</li> */}
                         </ul>

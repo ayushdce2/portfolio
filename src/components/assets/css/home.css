@@ -84,7 +84,7 @@
     text-decoration: none;
     color: #BE3D2A;
 }
-.topMenuList ul li a:hover{
+.topMenuList ul li a:hover,.topMenuList a.activeMenu{
     background-color: #be3d2ab8;
     color: #fff;
     border-radius: 0.5rem;
