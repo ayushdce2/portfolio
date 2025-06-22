@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.20ee2692.css",
-    "main.js": "/portfolio/static/js/main.e57b6089.js",
+    "main.js": "/portfolio/static/js/main.0c7f2ec9.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.8c17d2d326125dc34db2.png",
     "static/media/musiccar.PNG": "/portfolio/static/media/musiccar.0de7d8ec02a76f0d1d8a.PNG",
@@ -20,6 +20,7 @@
     "static/media/todo.png": "/portfolio/static/media/todo.25f82eededeec0ff6994.png",
     "static/media/notesTaking.png": "/portfolio/static/media/notesTaking.53d8970320f282418803.png",
     "static/media/dragdrop.png": "/portfolio/static/media/dragdrop.462cfcc50f964d488c5d.png",
+    "static/media/LoginDesign3.png": "/portfolio/static/media/LoginDesign3.b3628a62486797589eea.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.d7969038b74c9fa5dca8.png",
     "static/media/instagram.png": "/portfolio/static/media/instagram.9ffad268d82e81dd1cc3.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.214d007f5a907ccbaeab.png",
@@ -61,11 +62,11 @@
     "static/media/footerEmail.svg": "/portfolio/static/media/footerEmail.5f0574609e6adc2fc493614c75c1c594.svg",
     "static/media/right.svg": "/portfolio/static/media/right.9b87f2757ac409bbd8c7d8ba8eae68fa.svg",
     "main.20ee2692.css.map": "/portfolio/static/css/main.20ee2692.css.map",
-    "main.e57b6089.js.map": "/portfolio/static/js/main.e57b6089.js.map",
+    "main.0c7f2ec9.js.map": "/portfolio/static/js/main.0c7f2ec9.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20ee2692.css",
-    "static/js/main.e57b6089.js"
+    "static/js/main.0c7f2ec9.js"
   ]
 }
