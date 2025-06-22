@@ -24,35 +24,11 @@ import countdown from "./assets/images/countdown.png";
 export const PortfolioUtility=[
     {
         image: foodApp,
-        indicator:"Api Used",
+        indicator:"External Api Used",
         title:"Food App",
         tags: ["React.js", "Tailwind", "Api", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
         viewMore: "https://ayushdce2.github.io/food_react"
-    },
-    {
-        image: weatherApp,
-        indicator:"Api Used",
-        title:"Weather App",
-        tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce2.github.io/weather_react/"
-    },
-    {
-        image: calculator,
-        indicator:"React",
-        title:"Calculator",
-        tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce2.github.io/calculator_react/"
-    },
-    {
-        image: todo,
-        indicator:"React",
-        title:"ToDo App",
-        tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce2.github.io/todo_react/"
     },
     {
         image: digitalMarketing,
@@ -102,38 +78,6 @@ export const PortfolioUtility=[
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
         viewMore: "https://ayushdce2.github.io/ecommerce_mern/"
     },
-    {
-        image: digitalClock,
-        indicator:"JavaScript",
-        title:"Digital Clock App",
-        tags: ["HTML","CSS","Javascript","Responsive","-"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce1.github.io/clock/"
-    },
-    {
-        image: countdown,
-        indicator:"JavaScript",
-        title:"CountDown Demo App",
-        tags: ["HTML","CSS","Javascript","Responsive","-"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce1.github.io/countdown/"
-    },
-    {
-        image: dragdrop,
-        indicator:"JavaScript",
-        title:"Drag & Drop",
-        tags: ["HTML","CSS","Javascript","-", "-"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce1.github.io/drag_drop/"
-    },
-    {
-        image: notesTaking,
-        indicator:"JavaScript",
-        title:"Notes Taking App",
-        tags: ["HTML","CSS","Javascript","-", "-"],
-        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
-        viewMore: "https://ayushdce1.github.io/notes/#"
-    },
     
     {
         image: dashboard1,
@@ -146,16 +90,16 @@ export const PortfolioUtility=[
     
     {
         image: musiccar,
-        indicator:"WooCommerce",
+        indicator:"Wordpress",
         title:"MusicCar",
-        tags: ["Wordpress", "Elementor", "HTML", "CSS","Javascript"],
+        tags: ["Wordpress", "Elementor", "HTML", "CSS","WooCommerce"],
         description: "Developed a responsive WordPress website using Elementor with custom-designed pages tailored for user engagement. Integrated dynamic content and optimized performance for seamless user experience.",
         viewMore: "https://drive.google.com/file/d/131J9NJ3SZiv6kkymRAV4HLfTR0XgOmPQ/view?usp=sharing"
 
     },
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"E-commerce",
         tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
@@ -163,21 +107,21 @@ export const PortfolioUtility=[
     
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"Booking / Appointment App",
         tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
     },
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"NGO Template",
         tags: ["React.js", "Tailwind", "HTML", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl"
     },
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"Landing Page",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -185,7 +129,7 @@ export const PortfolioUtility=[
     },
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"Learning Mgmt System (LMS)",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -193,7 +137,7 @@ export const PortfolioUtility=[
     },
     {
         image: underProcess,
-        indicator:"React Design",
+        indicator:"Upcoming",
         title:"Job Portal",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
