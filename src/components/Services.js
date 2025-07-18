@@ -51,7 +51,7 @@ const Services = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Custom Website Development</p>
+                                    <p>Custom Website Design</p>
                                 </div>
                                 <div className="servicesMainUnitDesc">
                                     <p>Stand out with a custom-built website tailored to your brand, goals, and audience — no templates, just results.
@@ -92,11 +92,11 @@ const Services = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>eCommerce Web Development</p>
+                                    <p>eCommerce Web Design</p>
                                 </div>
                                 <div className="servicesMainUnitDesc">
                                     <p>Launch a powerful online store that’s built to sell, scale, and succeed.
-                                    Custom eCommerce solutions designed for seamless shopping experiences and maximum conversions. </p>
+                                    Custom eCommerce UI, designed for seamless shopping experiences and maximum conversions. </p>
                                     {/* <p>Service Description Service Description Service Description Service Description Service Description </p> */}
                                 </div>
                                 {/* <div className="servicesMainUnitFooter">
@@ -163,26 +163,6 @@ const Services = ()=>{
 
                             </div> */}
                             <div className="servicesMainUnitInside">
-                                <div className="servicesMainUnitIcon">
-                                    <img src={service6} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Web App Development</p>
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>Bring your ideas to life with dynamic, scalable, and interactive web applications.
-                                    Built for performance, tailored to your needs — from MVP to full-scale platforms.</p>
-                                    {/* <p>Service Description Service Description Service Description Service Description Service Description </p> */}
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>Learn More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-
-                                <img src={pin} className="pinRight"/>
-
-                            </div><div className="servicesMainUnitInside">
                                 <div className="servicesMainUnitIcon">
                                     <img src={service7} />
 

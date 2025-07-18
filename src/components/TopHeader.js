@@ -43,9 +43,11 @@ const TopHeader = ()=>{
                     <div className="topMenuList">
                         <ul>
                             <li><a href="#home" className={activeMenu==="home" ? "activeMenu" : ""} onClick={()=>{selectedMenu("home")}}><div className="topMenuIconItem"><img src={homeicon}/></div><p>Home</p></a></li>
-                            <li><a href="#services" className={activeMenu==="services" ? "activeMenu" : ""} onClick={()=>{selectedMenu("services")}}><div className="topMenuIconItem"><img src={skill}/></div><p>Services</p></a></li>
-                            <li><a href="#about" className={activeMenu==="about" ? "activeMenu" : ""} onClick={()=>{selectedMenu("about")}}><div className="topMenuIconItem"><img src={user} /></div><p>About</p></a></li>
-                            <li><a href="#favouriteTool" className={activeMenu==="favouriteTool" ? "activeMenu" : ""} onClick={()=>{selectedMenu("favouriteTool")}}><div className="topMenuIconItem"><img src={tool}/></div><p>Favourite Tools</p></a></li>
+                            <li><a href="#about" className={activeMenu==="about" ? "activeMenu" : ""} onClick={()=>{selectedMenu("about")}}><div className="topMenuIconItem"><img src={user} /></div><p>About Me</p></a></li>
+                            <li><a href="#favouriteTool" className={activeMenu==="favouriteTool" ? "activeMenu" : ""} onClick={()=>{selectedMenu("favouriteTool")}}><div className="topMenuIconItem"><img src={tool}/></div><p>My Skills</p></a></li>
+                            <li><a href="#services" className={activeMenu==="services" ? "activeMenu" : ""} onClick={()=>{selectedMenu("services")}}><div className="topMenuIconItem"><img src={skill}/></div><p>My Services</p></a></li>
+
+
                             <li><a href="#myProject" className={activeMenu==="myProject" ? "activeMenu" : ""} onClick={()=>{selectedMenu("myProject")}}><div className="topMenuIconItem"><img src={projects}/></div><p>My Projects</p></a></li>
                             
                             {/* <li>HOME</li> */}
@@ -85,7 +87,7 @@ const TopHeader = ()=>{
                             <div className="thbl_row2_inside">
                             
                                     <p>I'm <span className="myName">Ayush,</span></p>
-                                    <p>Website Developer</p>
+                                    <p>UI Developer</p>
                                     <p>Based in India.</p>
                               
 
@@ -96,7 +98,7 @@ const TopHeader = ()=>{
                         <div className="thbl_row3">
                             <div className="thbl_row3_inside">
                             
-                                    <p>I'm an experienced Website Developer with 2+ years in the field, collaborating with various individual clients and startups.</p>
+                                    <p>I'm an experienced Frontend Developer with 2 years in the field, collaborating with various individual clients and startups.</p>
                               
                             </div>
 
@@ -150,7 +152,7 @@ const TopHeader = ()=>{
                                 <div className="thbr_web_text_img2">
                                     <img src={www}/>
                                 </div>
-                                <p>Website Development</p>
+                                <p>Frontend Development</p>
                             </div>
                         </div>
                         <ul class="circles">
@@ -173,7 +175,7 @@ const TopHeader = ()=>{
                 <div className="services_list">
                             <div className="services_list_inside">
                                 <div className="servicesseparator"><img src={servicesseparator}/></div>
-                                <div><p>Web Development</p></div>
+                                <div><p>UI Development</p></div>
                                 <div className="servicesseparator"><img src={servicesseparator}/></div>
                                 <div><p>Website Design</p></div>
                                 <div className="servicesseparator"><img src={servicesseparator}/></div>

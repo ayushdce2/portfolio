@@ -21,9 +21,9 @@ const About = ()=>{
                     </div>
                     <div className="aboutparagraph">
                         <p>Hi, I am Ayush. </p>
-                        <p>I am a Website developer with a passion for</p>
+                        <p>I am a Frontend developer with a passion for</p>
                         <p>building scalable and efficient web solutions.</p>
-                        <p>Design | Development | Maintenance</p>
+                        <p>Design , UI , Frontend</p>
                         <p>and much more . . . </p>
                     </div>
                     <div className="aboutstats">
@@ -77,7 +77,7 @@ const About = ()=>{
                                 </div>
                                 <div className="aboutstatsunitRow3">
                                     
-                                    <p>Web Development</p>
+                                    <p>UI Development</p>
                                 </div>
                                 
                             </div>
