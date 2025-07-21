@@ -47,9 +47,9 @@ const Footer = ()=>{
                             <p>Navigation</p>
                             <ul>
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#favouriteTool">Favourite Tools</a></li>
+                                <li><a href="#services">My Services</a></li>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#favouriteTool">My Skills</a></li>
                                 <li><a href="#myProject">My Projects</a></li>
                             </ul>
 
