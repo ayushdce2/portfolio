@@ -21,10 +21,11 @@ const About = ()=>{
                     </div>
                     <div className="aboutparagraph">
                         <p>Hi, I am Ayush. </p>
-                        <p>I am a Frontend developer with a passion for</p>
-                        <p>building scalable and efficient web solutions.</p>
-                        <p>Design , UI , Frontend</p>
-                        <p>and much more . . . </p>
+                        <p>I am a software developer with a strong focus on front-end development using React.js</p>
+                        <p> and a solid grasp of back-end technologies like Node.js, Express, and MongoDB.</p>
+                        {/* <p>building scalable and efficient web solutions.</p> */}
+                        <p>Frontend | Backend | Fullstack</p>
+                        {/* <p>and much more . . . </p> */}
                     </div>
                     <div className="aboutstats">
                         <div className="aboutstatsinside">

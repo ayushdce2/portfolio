@@ -447,3 +447,7 @@
     50%{ color: #fff;}
     100%{color: #F5C45E;}
 }
+
+.thbl_row2_inside .mernstackdeveloper{
+    font-size: 3rem;
+}

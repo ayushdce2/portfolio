@@ -51,7 +51,7 @@ const Services = ()=>{
 
                                 </div>
                                 <div className="servicesMainUnitName">
-                                    <p>Custom Website Design</p>
+                                    <p>Custom Website or Web App Design</p>
                                 </div>
                                 <div className="servicesMainUnitDesc">
                                     <p>Stand out with a custom-built website tailored to your brand, goals, and audience — no templates, just results.
@@ -65,27 +65,7 @@ const Services = ()=>{
                                 <img src={pin} className="pinRight"/>
 
                             </div>
-                            <div className="servicesMainUnitInside">
-                                <div className="servicesMainUnitIcon">
-                                    <img src={service1} />
-
-                                </div>
-                                <div className="servicesMainUnitName">
-                                    <p>Wordpress Development</p>
-                                </div>
-                                <div className="servicesMainUnitDesc">
-                                    <p>Power your website with WordPress — flexible, scalable, and easy to manage.
-                                    Custom themes, plugins, and performance optimization tailored to your business.</p>
-                                    {/* <p>Service Description Service Description Service Description Service Description Service Description </p> */}
-                                </div>
-                                {/* <div className="servicesMainUnitFooter">
-                                    <p>Learn More</p>
-                                    <img src={arrowdouble}/>
-                                </div> */}
-
-                                <img src={pin} className="pinRight"/>
-
-                            </div>
+                            
                             <div className="servicesMainUnitInside">
                                 <div className="servicesMainUnitIcon">
                                     <img src={service2} />
@@ -146,7 +126,7 @@ const Services = ()=>{
                                 <img src={pin} className="pinRight"/>
 
                             </div> */}
-                            {/* <div className="servicesMainUnitInside">
+                            <div className="servicesMainUnitInside">
                                 <div className="servicesMainUnitIcon">
                                     <img src={service5} />
 
@@ -160,8 +140,9 @@ const Services = ()=>{
                                     
 
                                 <img src={pin} className="pinRight"/>
+                                </div>
 
-                            </div> */}
+                            </div>
                             <div className="servicesMainUnitInside">
                                 <div className="servicesMainUnitIcon">
                                     <img src={service7} />

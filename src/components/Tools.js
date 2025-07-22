@@ -259,7 +259,7 @@ const Tools = ()=>{
 
                                     </div>
                                     <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>40%</p>
+                                        <p><span>Expertise - </span>60%</p>
 
                                     </div>
                                     {/* <div className="toolsitembasement">
@@ -273,7 +273,7 @@ const Tools = ()=>{
 
                             </div>
 
-                            <div className="toolsitemMain">
+                            {/* <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
                                         <img src={wordpress}/>
@@ -287,16 +287,13 @@ const Tools = ()=>{
                                         <p><span>Expertise - </span>70%</p>
 
                                     </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
+                                   
                                     
 
                                 </div>
 
 
-                            </div>
+                            </div> */}
                             <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">

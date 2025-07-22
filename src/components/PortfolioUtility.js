@@ -23,6 +23,14 @@ import countdown from "./assets/images/countdown.png";
 
 export const PortfolioUtility=[
     {
+        image: underProcess,
+        indicator:"External Api Used",
+        title:"Employee Management",
+        tags: ["React.js", "Tailwind", "Api", "CSS","Javascript"],
+        viewMore: "https://ayushdce2.github.io/food_react",
+        description:"A full-stack MERN application that enables HR teams to manage employee records efficiently. Built with scalability and usability in mind."
+    },
+    {
         image: foodApp,
         indicator:"External Api Used",
         title:"Food App",

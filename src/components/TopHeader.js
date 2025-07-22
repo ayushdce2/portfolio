@@ -87,8 +87,8 @@ const TopHeader = ()=>{
                             <div className="thbl_row2_inside">
                             
                                     <p>I'm <span className="myName">Ayush,</span></p>
-                                    <p>UI Developer</p>
-                                    <p>Based in India.</p>
+                                    <p>React.js Specialist</p>
+                                    <p className="mernstackdeveloper">MERN Stack Developer</p>
                               
 
                             </div>
@@ -98,7 +98,8 @@ const TopHeader = ()=>{
                         <div className="thbl_row3">
                             <div className="thbl_row3_inside">
                             
-                                    <p>I'm an experienced Frontend Developer with 2 years in the field, collaborating with various individual clients and startups.</p>
+                                    <p>I'm an experienced Frontend Developer with 2 years in React.js. 
+                                        Also, developed dynamic web applications using the MERN stack.</p>
                               
                             </div>
 
