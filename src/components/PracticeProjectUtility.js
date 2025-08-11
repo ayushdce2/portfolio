@@ -25,7 +25,7 @@ export const PracticeProjectUtility=[
     
     {
         image: weatherApp,
-        indicator:"External Api Used",
+        indicator:"React , External Api Used",
         title:"Weather App",
         tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",

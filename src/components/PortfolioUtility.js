@@ -15,6 +15,7 @@ import dragdrop from "./assets/images/dragdrop.png";
 import notesTaking from "./assets/images/notesTaking.png";
 import digitalClock from "./assets/images/digitalClock.png";
 import countdown from "./assets/images/countdown.png";
+import appointmentbookingapp from "./assets/images/Appointmentbookingapp.PNG";
 
 
 
@@ -22,17 +23,18 @@ import countdown from "./assets/images/countdown.png";
 
 
 export const PortfolioUtility=[
+    
     {
-        image: underProcess,
-        indicator:"External Api Used",
-        title:"Employee Management",
-        tags: ["React.js", "Tailwind", "Api", "CSS","Javascript"],
-        viewMore: "https://ayushdce2.github.io/food_react",
-        description:"A full-stack MERN application that enables HR teams to manage employee records efficiently. Built with scalability and usability in mind."
+        image: appointmentbookingapp,
+        indicator:"MERN Stack",
+        title:"Appointment Booking App",
+        tags: ["MERN", "Vercel", "Mongoose", "Tailwind","GitHub"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
+        viewMore: "https://booking-mern-murex.vercel.app/"
     },
     {
         image: foodApp,
-        indicator:"External Api Used",
+        indicator:"React , External Api Used",
         title:"Food App",
         tags: ["React.js", "Tailwind", "Api", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -40,7 +42,7 @@ export const PortfolioUtility=[
     },
     {
         image: digitalMarketing,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:"Digital Marketing Agency",
         tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -48,7 +50,7 @@ export const PortfolioUtility=[
     },
     {
         image: dashboard,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:" Dashboard",
         tags: ["React.js","Responsive", "HTML", "CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -56,7 +58,7 @@ export const PortfolioUtility=[
     },
     {
         image: LoginDesign,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:"Login Page ",
         tags: ["React.js", "Responsive", "SignUp", "Forgot Password","Sign In"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -64,7 +66,7 @@ export const PortfolioUtility=[
     },
     {
         image: LoginDesign1,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:"Login Page 1",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -72,7 +74,7 @@ export const PortfolioUtility=[
     },
     {
         image: LoginDesign2,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:"Login Page 2",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -80,7 +82,7 @@ export const PortfolioUtility=[
     },
     {
         image: LoginDesign3,
-        indicator:"React Design",
+        indicator:"React , Design Only",
         title:"Login Page 3",
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
@@ -150,5 +152,13 @@ export const PortfolioUtility=[
         tags: ["React.js", "Sign In", "HTML","CSS","Javascript"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
         viewMore: "https://todo-mern-front-8c90.onrender.com/"
+    },
+    {
+        image: underProcess,
+        indicator:"Upcoming",
+        title:"Employee Management",
+        tags: [" - ", " - ", " - ", " - "," - "],
+        viewMore: "#",
+        description:" -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - "
     }
 ]

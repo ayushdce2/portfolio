@@ -69,6 +69,20 @@ const Footer = ()=>{
                         </div>
 
                     </div>
+                    <div className="footerNavWrap" style={{"width" : "auto"}}>
+                        <div className="footerNavinside">
+                            <p>Quick Links</p>
+                            <ul>
+                                <li><a href="#">Food App (React)</a></li>
+                                <li><a href="#">Appointment Booking (MERN)</a></li>
+                                <li><a href="#">Dashboard (React, <i>design only</i>)</a></li>
+                                <li><a href="#">Login Page (React, <i>design only</i>)</a></li>
+                                <li><a href="#">Weather App (React)</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
