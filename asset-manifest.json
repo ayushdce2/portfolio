@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.017cfd1e.css",
-    "main.js": "/portfolio/static/js/main.902c0784.js",
+    "main.js": "/portfolio/static/js/main.303604ca.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.8c17d2d326125dc34db2.png",
     "static/media/musiccar.PNG": "/portfolio/static/media/musiccar.0de7d8ec02a76f0d1d8a.PNG",
@@ -11,6 +11,7 @@
     "static/media/countdown.png": "/portfolio/static/media/countdown.e4b61a0416a83626d0b0.png",
     "static/media/digitalClock.png": "/portfolio/static/media/digitalClock.8dab2224205d1dcda8c0.png",
     "static/media/Appointmentbookingapp.PNG": "/portfolio/static/media/Appointmentbookingapp.acff0cd52d806243b132.PNG",
+    "static/media/doctorweb.PNG": "/portfolio/static/media/doctorweb.5886b210c135f441a9bc.PNG",
     "static/media/digitalMarketing.png": "/portfolio/static/media/digitalMarketing.296cfbc772729a075bbd.png",
     "static/media/LoginDesign1.png": "/portfolio/static/media/LoginDesign1.6d0772421f2e37e468f1.png",
     "static/media/dashboard1.png": "/portfolio/static/media/dashboard1.cdf3278722e7ac197e97.png",
@@ -69,11 +70,11 @@
     "static/media/footerEmail.svg": "/portfolio/static/media/footerEmail.5f0574609e6adc2fc493614c75c1c594.svg",
     "static/media/right.svg": "/portfolio/static/media/right.9b87f2757ac409bbd8c7d8ba8eae68fa.svg",
     "main.017cfd1e.css.map": "/portfolio/static/css/main.017cfd1e.css.map",
-    "main.902c0784.js.map": "/portfolio/static/js/main.902c0784.js.map",
+    "main.303604ca.js.map": "/portfolio/static/js/main.303604ca.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.017cfd1e.css",
-    "static/js/main.902c0784.js"
+    "static/js/main.303604ca.js"
   ]
 }
