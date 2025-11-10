@@ -6,7 +6,7 @@ import service from "./assets/icons/service.svg";
 import right from "./assets/icons/right.svg";
 import pin from "./assets/icons/pin.png";
 import "./assets/css/portfolio.css";
-import {PortfolioUtility} from "./PortfolioUtility";
+import {WebAppProjects,WebDesignProjects} from "./PortfolioUtility";
 import pointerBackground from "./assets/icons/pointerBackground.svg";
 
 const Portfolio = ()=>{
@@ -25,7 +25,7 @@ const Portfolio = ()=>{
                     </div>
                     
                     <div className="subheading">
-                        <p><span className="servicessubtext">Latest</span> Projects built by me . . .</p>
+                        <p><span className="servicessubtext">Web App</span> Projects built by me . . .</p>
                         {/* <div className="viewAllButton">
                             <div className="viewMe">
                                 <a href="#">View All Projects</a>
@@ -41,7 +41,85 @@ const Portfolio = ()=>{
                     
                     <div>
                         <div className="servicesMainUnit">
-                            {PortfolioUtility.map((data)=>{
+                            {WebAppProjects.map((data)=>{
+                                return (
+                                    <>
+                                        <div className="servicesMainUnitInside">
+                                        <div className="portfolioimage">
+                                            <img src={data.image} />
+
+                                        </div>
+                                        <div className="servicesMainUnitName">
+                                            <p>{data.title}</p>
+                                        </div>
+                                        {/* <div className="servicesMainUnitDesc">
+                                            <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                            <p>Service Description Service Description Service Description Service Description Service Description </p>
+                                        </div> */}
+                                        <div className="portfolioTags">
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[0]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[1]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[2]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[3]}</p>
+                                            </div>
+                                            <div className="portfolioTagUnit">
+                                                <p>{data.tags[4]}</p>
+                                            </div>
+
+                                        </div>
+                                        <div className="servicesMainUnitDesc">
+                                            <p>{data.description}</p>
+
+                                        </div>
+                                        <div className="servicesMainUnitFooter">
+                                            <a href={data.viewMore} target="_blank">View More <img src={right}/> </a>
+                                            
+                                        </div>
+                                        {/* <img src={pin} className="pinRight"/> */}
+                                        <div className="porfolioIndicatorWrap">
+                                            <div className="porfolioIndicator">
+                                                {/* <img src={pointerBackground} /> */}
+                                                <p>{data?.indicator}</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    </>
+                                )
+
+                            })}
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                    <div className="subheading">
+                        <p><span className="servicessubtext">Web Design</span> Projects built by me . . .</p>
+                        {/* <div className="viewAllButton">
+                            <div className="viewMe">
+                                <a href="#">View All Projects</a>
+                            </div>
+                            <div className="playButton">
+                                <a href="#">
+                                    <img src={playSVG} />
+                                </a>
+                            </div>
+
+                        </div> */}
+                    </div>
+
+                    <div>
+                        <div className="servicesMainUnit">
+                            {WebDesignProjects.map((data)=>{
                                 return (
                                     <>
                                         <div className="servicesMainUnitInside">

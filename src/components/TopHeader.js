@@ -147,7 +147,7 @@ const TopHeader = ()=>{
                                 <div className="thbr_web_text_img1">
                                     <img src={digitalMark}/>
                                 </div>
-                                <p>Website Design</p>
+                                <p>Website Development</p>
                             </div>
                             <div className="thbr_marketing_text">
                                 <div className="thbr_web_text_img2">

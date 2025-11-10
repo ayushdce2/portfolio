@@ -73,11 +73,11 @@ const Footer = ()=>{
                         <div className="footerNavinside">
                             <p>Quick Links</p>
                             <ul>
-                                <li><a href="#">Food App (React)</a></li>
-                                <li><a href="#">Appointment Booking (MERN)</a></li>
-                                <li><a href="#">Dashboard (React, <i>design only</i>)</a></li>
-                                <li><a href="#">Login Page (React, <i>design only</i>)</a></li>
-                                <li><a href="#">Weather App (React)</a></li>
+                                <li><a href="https://ayushdce2.github.io/food_react/" target="_blank">Food App (React)</a></li>
+                                <li><a href="https://doc-booking-mern.vercel.app/" target="_blank">Appointment Booking (MERN)</a></li>
+                                <li><a href="https://ayushdce2.github.io/dashboard1/" target="_blank">Dashboard (React, <i>design only</i>)</a></li>
+                                <li><a href="https://ayushdce2.github.io/hospital_mgmt/" target="_blank">Login Page (React, <i>design only</i>)</a></li>
+                                <li><a href="https://ayushdce2.github.io/weather_react/" target="_blank">Weather App (React)</a></li>
                             </ul>
 
                         </div>

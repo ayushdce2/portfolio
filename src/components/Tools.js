@@ -34,103 +34,6 @@ const Tools = ()=>{
                             <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
-                                        <img src={tailwind}/>
-
-                                    </div>
-                                    <div className="toolsitemtitle">
-                                        <p>Tailwind</p>
-
-                                    </div>
-                                    <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>95%</p>
-
-                                    </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
-                                    
-
-                                </div>
-
-
-                            </div>
-                            <div className="toolsitemMain">
-                                <div className="toolsiteminside">
-                                    <div className="toolsitemimg">
-                                        <img src={react}/>
-
-                                    </div>
-                                    <div className="toolsitemtitle">
-                                        <p>React</p>
-
-                                    </div>
-                                    <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>95%</p>
-
-                                    </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
-                                    
-
-                                </div>
-
-
-                            </div><div className="toolsitemMain">
-                                <div className="toolsiteminside">
-                                    <div className="toolsitemimg">
-                                        <img src={javascript}/>
-
-                                    </div>
-                                    <div className="toolsitemtitle">
-                                        <p>Javascript</p>
-
-                                    </div>
-                                    <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>95%</p>
-
-                                    </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
-                                    
-
-                                </div>
-
-
-                            </div>
-                            <div className="toolsitemMain">
-                                <div className="toolsiteminside">
-                                    <div className="toolsitemimg">
-                                        <img src={github}/>
-
-                                    </div>
-                                    <div className="toolsitemtitle">
-                                        <p>Git & GitHub</p>
-
-                                    </div>
-                                    <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>95%</p>
-
-                                    </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
-                                    
-
-                                </div>
-
-
-                            </div>
-                            
-                            
-                            <div className="toolsitemMain">
-                                <div className="toolsiteminside">
-                                    <div className="toolsitemimg">
                                         <img src={html}/>
 
                                     </div>
@@ -179,11 +82,11 @@ const Tools = ()=>{
                             <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
-                                        <img src={VisualStudioCode}/>
+                                        <img src={javascript}/>
 
                                     </div>
                                     <div className="toolsitemtitle">
-                                        <p>Visual Studio Code </p>
+                                        <p>Javascript</p>
 
                                     </div>
                                     <div className="toolsitemtext">
@@ -203,15 +106,15 @@ const Tools = ()=>{
                             <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
-                                        <img src={lighthouse}/>
+                                        <img src={tailwind}/>
 
                                     </div>
                                     <div className="toolsitemtitle">
-                                        <p>Lighthouse</p>
+                                        <p>Tailwind</p>
 
                                     </div>
                                     <div className="toolsitemtext">
-                                        <p><span>Expertise - </span>55%</p>
+                                        <p><span>Expertise - </span>95%</p>
 
                                     </div>
                                     {/* <div className="toolsitembasement">
@@ -224,6 +127,99 @@ const Tools = ()=>{
 
 
                             </div>
+                            <div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={react}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>React</p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>95%</p>
+
+                                    </div>
+                                    {/* <div className="toolsitembasement">
+                                        
+
+                                        </div> */}
+                                    
+
+                                </div>
+
+
+                            </div>
+                            <div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={github}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>Git & GitHub</p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>95%</p>
+
+                                    </div>
+                                    {/* <div className="toolsitembasement">
+                                        
+
+                                        </div> */}
+                                    
+
+                                </div>
+
+
+                            </div>
+                            
+                            
+                            
+                            {/* <div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={VisualStudioCode}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>Visual Studio Code </p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>95%</p>
+
+                                    </div>
+                                 
+                                    
+
+                                </div>
+
+
+                            </div> */}
+                            {/* <div className="toolsitemMain">
+                                <div className="toolsiteminside">
+                                    <div className="toolsitemimg">
+                                        <img src={lighthouse}/>
+
+                                    </div>
+                                    <div className="toolsitemtitle">
+                                        <p>Lighthouse</p>
+
+                                    </div>
+                                    <div className="toolsitemtext">
+                                        <p><span>Expertise - </span>55%</p>
+
+                                    </div>
+                                   
+                                    
+
+                                </div>
+
+
+                            </div> */}
                             <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
@@ -294,7 +290,7 @@ const Tools = ()=>{
 
 
                             </div> */}
-                            <div className="toolsitemMain">
+                            {/* <div className="toolsitemMain">
                                 <div className="toolsiteminside">
                                     <div className="toolsitemimg">
                                         <img src={firebase}/>
@@ -308,16 +304,12 @@ const Tools = ()=>{
                                         <p><span>Expertise - </span>50%</p>
 
                                     </div>
-                                    {/* <div className="toolsitembasement">
-                                        
-
-                                        </div> */}
                                     
 
                                 </div>
 
 
-                            </div>
+                            </div> */}
                              
                             
 
