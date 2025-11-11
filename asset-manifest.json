@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.017cfd1e.css",
-    "main.js": "/portfolio/static/js/main.303604ca.js",
+    "main.js": "/portfolio/static/js/main.8fb384aa.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.8c17d2d326125dc34db2.png",
     "static/media/musiccar.PNG": "/portfolio/static/media/musiccar.0de7d8ec02a76f0d1d8a.PNG",
@@ -20,6 +20,8 @@
     "static/media/Raleway-Regular.ttf": "/portfolio/static/media/Raleway-Regular.d9219d8a361ac3530c7e.ttf",
     "static/media/dashboard.PNG": "/portfolio/static/media/dashboard.57c713e2b0ac34e72d15.PNG",
     "static/media/LoginDesign.png": "/portfolio/static/media/LoginDesign.9a5e42bab092cd8efd3b.png",
+    "static/media/loginDesign4.PNG": "/portfolio/static/media/loginDesign4.e256806e0f2b9919570c.PNG",
+    "static/media/dashboard3.PNG": "/portfolio/static/media/dashboard3.358b32361802b47706a4.PNG",
     "static/media/todo.png": "/portfolio/static/media/todo.25f82eededeec0ff6994.png",
     "static/media/notesTaking.png": "/portfolio/static/media/notesTaking.53d8970320f282418803.png",
     "static/media/dragdrop.png": "/portfolio/static/media/dragdrop.462cfcc50f964d488c5d.png",
@@ -70,11 +72,11 @@
     "static/media/footerEmail.svg": "/portfolio/static/media/footerEmail.5f0574609e6adc2fc493614c75c1c594.svg",
     "static/media/right.svg": "/portfolio/static/media/right.9b87f2757ac409bbd8c7d8ba8eae68fa.svg",
     "main.017cfd1e.css.map": "/portfolio/static/css/main.017cfd1e.css.map",
-    "main.303604ca.js.map": "/portfolio/static/js/main.303604ca.js.map",
+    "main.8fb384aa.js.map": "/portfolio/static/js/main.8fb384aa.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.017cfd1e.css",
-    "static/js/main.303604ca.js"
+    "static/js/main.8fb384aa.js"
   ]
 }
