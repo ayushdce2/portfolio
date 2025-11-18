@@ -28,6 +28,8 @@ app.get('/',(req,res)=>{
 
 // POST endpoint for form submission
 app.post('/contact', async (req, res) => {
+
+  try{
     console.log("<---response at end point--->",req.body);
     
   const { name, email, message } = req.body;
@@ -51,6 +53,10 @@ app.post('/contact', async (req, res) => {
       res.send('Thank you for contacting me! I will get back to you shortly.',info.response);
     }
   });
+
+  }catch(error){
+    console.log(error)
+  }
 });
 
 // Start the server
