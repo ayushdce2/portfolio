@@ -20,6 +20,7 @@ import notesTaking from "./assets/images/notesTaking.png";
 import digitalClock from "./assets/images/digitalClock.png";
 import countdown from "./assets/images/countdown.png";
 import appointmentbookingapp from "./assets/images/Appointmentbookingapp.PNG";
+import emp_mgmt_app from "./assets/images/emp_mgmt.PNG"
 
 
 
@@ -36,7 +37,7 @@ export const WebAppProjects=[
         description: "An eCommerce app is a digital platform that allows users to browse, buy, and sell products or services online.",
         viewMore: "https://ecommerce-mern--app.vercel.app/"
     },{
-        image: underProcess,
+        image: emp_mgmt_app,
         indicator:"MERN Stack",
         title:"Employee Management App",
         tags: ["MERN", "Vercel", "Mongoose", "Tailwind","GitHub"],
