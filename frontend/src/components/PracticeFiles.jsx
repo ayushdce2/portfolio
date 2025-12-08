@@ -6,7 +6,7 @@ import service from "./assets/icons/service.svg";
 import right from "./assets/icons/right.svg";
 import pin from "./assets/icons/pin.png";
 import "./assets/css/portfolio.css";
-import {PracticeProjectUtility} from "./PracticeProjectUtility.js";
+import {PracticeProjectUtility} from "./PracticeProjectUtility.jsx";
 import pointerBackground from "./assets/icons/pointerBackground.svg";
 
 const PracticeFiles = ()=>{
