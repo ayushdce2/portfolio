@@ -15,7 +15,7 @@ import dragdrop from "./assets/images/dragdrop.png";
 import notesTaking from "./assets/images/notesTaking.png";
 import digitalClock from "./assets/images/digitalClock.png";
 import countdown from "./assets/images/countdown.png";
-
+import formValidation from "./assets/images/formValidation.PNG"
 
 
 
@@ -30,6 +30,13 @@ export const PracticeProjectUtility=[
         tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
         description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
         viewMore: "https://ayushdce2.github.io/weather_react/"
+    },{
+        image: formValidation,
+        indicator:"React , Validation",
+        title:"Form Validation App",
+        tags: ["React.js", "HTML","CSS","Javascript","Responsive"],
+        description: "this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl this is sample paragraph about title asdfghjkl",
+        viewMore: "https://ayushdce2.github.io/form_validation/"
     },
     {
         image: calculator,

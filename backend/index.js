@@ -1,10 +1,13 @@
 const express = require('express');
-const cors = require("cors");
-const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
-require('dotenv').config();
-
 const app = express();
+require('dotenv').config();
+const { MongooseDBConnectionFunction } = require("./models/db.js");
+MongooseDBConnectionFunction(app);
+const cors = require("cors");
+const nodemailer = require('nodemailer');
+
+
+
 app.use(cors());
 
 app.use(express.json());
