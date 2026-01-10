@@ -21,6 +21,7 @@ import digitalClock from "./assets/images/digitalClock.png";
 import countdown from "./assets/images/countdown.png";
 import appointmentbookingapp from "./assets/images/Appointmentbookingapp.PNG";
 import emp_mgmt_app from "./assets/images/emp_mgmt.PNG"
+import pratham_web from "./assets/images/pratham.PNG"
 
 
 
@@ -69,6 +70,13 @@ export const WebDesignProjects=[
     
     
     {
+        image: pratham_web,
+        indicator:"Website Design",
+        title:"Finance Website",
+        tags: ["HTML", "CSS","Js","Bootstrap","Responsive"],
+        description: "This is finance website featuring services like Mutual Fund, Loan etc. It is resposive and built using HTML CSS JavaScript Bootstrap. ",
+        viewMore: "https://ayushdce2.github.io/finance_web/index.html"
+    },{
         image: dashboard2,
         indicator:"React , Design Only",
         title:"Patient Dashboard Design",
